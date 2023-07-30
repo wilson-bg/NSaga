@@ -7170,7 +7170,7 @@ namespace PetaPoco
             else
                 return "@";
         }
-
+// 
         public override string EscapeSqlIdentifier(string sqlIdentifier)
         {
             return string.Format("`{0}`", sqlIdentifier);
